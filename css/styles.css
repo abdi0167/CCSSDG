@@ -1,5 +1,5 @@
 * {
-    /*    border: 1px solid #c00;*/
+/*        border: 1px solid #c00;*/
 }
 
 html {
@@ -108,8 +108,8 @@ escape a:visited {
 h1 {}
 
 h2 {
-    padding: 15px 0;
-    text-align: center;
+    padding: 0 15px 0 0;
+    
 }
 
 .contrast {
@@ -295,6 +295,9 @@ LVHA
     background: #0099d8;
 }
 
+
+
+/**-------------- SUB PAGE ITEMS -------***/
 .subpage-img {
     height: auto;
     object-fit: contain;
@@ -318,6 +321,7 @@ LVHA
     text-align: center;
     color: #fff;
     top: -200px;
+    
 }
 
 .navbar-footer {
@@ -332,21 +336,23 @@ LVHA
 
 }
 
+.post{
+    margin:2.5%  0;
+}
+.sidebar{
+    margin: 5% 0;
+}
+.sidebar p{
+/*    margin: 0 auto;*/
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ccc;
+}
+
 
 /** END OF EXPERIMENTAL ZONE **/
 
 /*jane*/
 
-/*
-.footer-menu nav {
-    width: 100%；
-}
-
-.footer-menu ul li {
-    font-size: 0.8rem;
-    display: inline-block;
-}
-*/
 
 footer .showing-contact-info {
     display: none;
@@ -374,21 +380,26 @@ footer .collapse-contact-info button {
 /*contact page from jane */
 
 .sub-pages .contact {
-    position: relative;
 }
 
 .sub-pages .contact .sub-banner {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(../images/contact-banner.jpg);
+    position: relative;
     background-size: cover;
     height: 550px;
 }
 
-.sub-pages .contact .subpage-heading {
+.sub-pages .subpage-heading {
     position: absolute;
     bottom: 50%;
     left: 40%;
 }
 
+.news{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(../images/news-banner.jpg);
+        background-size: cover;
+        height: 550px;
+}
 
 
 .footer-nav {
