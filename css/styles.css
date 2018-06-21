@@ -411,6 +411,167 @@ footer .collapse-contact-info button {
 
 
 
+/*contact page from jane June 19*/
+
+
+.sub-pages .contact .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/contact-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+.sub-pages .contact .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;  
+}
+
+.map-info {
+    margin-top: 50px;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact-form {
+    background-color: #0099d8;
+}
+
+.contact-form h3 {
+    color: white;
+    margin-top: 20px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    height: 45px;
+}
+
+.contact-form form textarea {
+    height: 120px;
+}
+
+.submit-btn {
+    color: #0099d8;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+.contact-form .contact-ways h4,
+.contact-form .contact-ways label {
+    color: white;
+}
+
+.office-hours  {
+    margin-top: 20px;
+}
+
+.doc-box {
+    margin-bottom: 40px;
+}
+
+.doc-box button {
+    width: 100%;
+    background-color: #0099d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+/*contact page from jane ends June 19*/
+
+
+
+
+/*program & services page from jane begins June 19*/
+.sub-pages .programs-services .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/programs-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+.sub-pages .programs-services .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 30%;  
+}
+
+.programs-services p {
+    margin-top: 50px;
+}
+
+
+/*program & services page from jane ends */
+
+
+
+
+/*resources page from jane begins June 19*/
+.sub-pages .resources .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/resorces-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+.sub-pages .resources .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;  
+}
+
+.resources .links {
+    margin-top: 50px;
+}
+
+.resources .links a {
+    display: block;
+}
+
+.resources .links a:link,
+.resources .links a:visited,
+.resources .links a:hover,
+.resources .links a:active {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.resource-partners {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*resources  page from jane ends June 19 */
+
+
+
+
+
+
+
+
+
+
+
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
