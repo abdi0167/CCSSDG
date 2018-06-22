@@ -6,7 +6,6 @@ html {
     font-size: 1rem;
 }
 
-
 /**  THEME COLORS **/
 
 .dark-grey-theme {
@@ -46,13 +45,12 @@ header {}
     padding: 0.15em;
     z-index: 9;
 }
-
-.info {}
-
+.contact-info p{
+    text-align: center;
+}
 .btn {
     border-radius: 50px;
 }
-
 .btn:hover {
     box-shadow: 0 0 5px #444;
 }
@@ -103,13 +101,7 @@ escape a:visited {
     color: #fff;
 }
 
-.welcome {}
-
-h1 {}
-
 h2 {
-    padding: 0 15px 0 0;
-    
 }
 
 .contrast {
@@ -127,23 +119,13 @@ h2 {
 .img-fluid:hover {
     filter: brightness(100%);
     cursor: pointer;
-
 }
-
-.hero-image-text {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.read-more {}
-
 .welcome {
     padding: 2em 0 0 0;
 }
 
 .welcome-text {
-    padding: 15px 0
+    padding: 15px 0;
 }
 
 .btn-center {
@@ -152,7 +134,9 @@ h2 {
 }
 
 .img-title {
+    
     position: absolute;
+/*    padding: auto;*/
     color: #fff;
     text-align: center;
     left: 0;
@@ -168,7 +152,7 @@ h2 {
 
 .mission-statement {
     position: relative;
-    top: -20px;
+    top: -40px;
     width: 90%;
     margin: 0 auto;
     padding: 1em;
@@ -182,7 +166,6 @@ h2 {
     font-weight: 600;
 }
 
-.banner-text {}
 
 .accredited-text {
     padding: 50px 0;
@@ -207,7 +190,6 @@ h2 {
 }
 
 footer {
-
     padding-top: 1em;
 }
 
@@ -222,20 +204,11 @@ footer {
     margin: 0;
 }
 
-.footer-nav {}
-
-.footer-nav li {
-
-    display: inline;
-    list-style: none;
-    margin: 0;
+.footer-nav {
+    width: 30%;
+    margin: 0 auto;
 }
 
-.footer-nav a {
-
-    text-align: right;
-    color: #fff;
-}
 
 .footer-contact {
     text-align: right;
@@ -247,34 +220,9 @@ footer {
     font-size: 10px;
 }
 
-
-
-
-
-
-/** EXPERIMENTAL ZONE  **/
-
-.modal {
-    /*
-    position: relative;
-    top: 20vh;
-*/
-}
-
-.top-btn {
-    cursor: pointer;
-    font-size: 30px;
-}
-
-.top-btn:hover {}
-
 .text-overlay {
     display: block;
 }
-
-.hidden {}
-
-.about-img {}
 
 /**
 LVHA
@@ -298,31 +246,6 @@ LVHA
 
 
 /**-------------- SUB PAGE ITEMS -------***/
-.subpage-img {
-    height: auto;
-    object-fit: contain;
-    position: relative;
-    top: -20%;
-}
-
-.subpage-banner {
-    /*    position: relative;*/
-    /*    top: -200px;*/
-    background: url('../images/about-banner.jpg');
-    background-position: center, center;
-    object-fit: cover;
-    height: 600px;
-    overflow: hidden;
-}
-
-.subpage-header {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    top: -200px;
-    
-}
 
 .navbar-footer {
     font-size: 14px;
@@ -378,6 +301,88 @@ footer .collapse-contact-info button {
 /* all subpages */
 
 /*contact page from jane */
+/*contact page from jane ends June 19*/
+
+
+
+
+/*program & services page from jane begins June 19*/
+.services, .latest-news, .partners, .about-text{
+    margin: 1.5em 0;
+}
+.sub-pages .programs-services .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/programs-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+.sub-pages .programs-services .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 30%;  
+}
+
+.programs-services p {
+    margin-top: 50px;
+}
+
+
+/*program & services page from jane ends */
+/**NEWS AND ABOUT **/
+.sub-pages .news .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/news-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+.sub-pages .news .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;  
+}
+
+.sub-pages .about .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/about-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+.sub-pages .about .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;  
+}
+
+
+
+/*resources page from jane begins June 19*/
+.sub-pages .resources .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/resorces-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+.sub-pages .resources .subpage-heading {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;  
+}
 
 .sub-pages .contact {
 }
@@ -387,24 +392,6 @@ footer .collapse-contact-info button {
     position: relative;
     background-size: cover;
     height: 550px;
-}
-
-.sub-pages .subpage-heading {
-    position: absolute;
-    bottom: 50%;
-    left: 40%;
-}
-
-.news{
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(../images/news-banner.jpg);
-        background-size: cover;
-        height: 550px;
-}
-
-
-.footer-nav {
-    width: 30%;
-    margin: 0 auto;
 }
 
 
@@ -489,54 +476,6 @@ footer .collapse-contact-info button {
     margin-top: 20px;
     text-align: left;
 }
-/*contact page from jane ends June 19*/
-
-
-
-
-/*program & services page from jane begins June 19*/
-.sub-pages .programs-services .sub-banner {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/programs-banner.jpg);
-    background-size: cover;
-    height: 550px;
-    position: relative;
-}
-
-
-.sub-pages .programs-services .subpage-heading {
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    bottom: 30%;
-    left: 30%;  
-}
-
-.programs-services p {
-    margin-top: 50px;
-}
-
-
-/*program & services page from jane ends */
-
-
-
-
-/*resources page from jane begins June 19*/
-.sub-pages .resources .sub-banner {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/resorces-banner.jpg);
-    background-size: cover;
-    height: 550px;
-    position: relative;
-}
-
-
-.sub-pages .resources .subpage-heading {
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    bottom: 30%;
-    left: 40%;  
-}
 
 .resources .links {
     margin-top: 50px;
@@ -563,12 +502,25 @@ footer .collapse-contact-info button {
 /*resources  page from jane ends June 19 */
 
 
+/* board images from jane on June 21 */
+.center-headings {
+    text-align: center;
+    margin-top: 20px;
+}
 
+.board-info {
+    text-align: center;
+}
 
+.board-info h2 {
+    text-align: center;
+}
 
+.board-info img {
+    width: 100%;
 
-
-
+}
+/* board images from jane on June 21 */
 
 
 
@@ -617,6 +569,10 @@ footer .collapse-contact-info button {
     footer .showing-contact-info {
         display: block;
     }
+.contact-info p{
+    padding-top: 0.5em;
+    text-align: left;
+}
     
 
 }
